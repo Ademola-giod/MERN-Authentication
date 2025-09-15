@@ -35,6 +35,6 @@ app.use('/api/user', userRouter)
 // endpoint for user router,
 
 
-app.listen(port, () => console.log(`server started on PORT:${port}`));
+// app.listen(port, () => console.log(`server started on PORT:${port}`));
 
 
