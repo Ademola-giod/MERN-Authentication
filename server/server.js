@@ -6,7 +6,7 @@ import cookieParser from "cookie-parser";
 import connectDB from "./config/mongodb.js";
 
 
-import authRouter from './routes/authRoutes.js '
+import authRouter from "./routes/authRoutes.js";
 import userRouter from "./routes/userRouters.js";
 
 
@@ -37,4 +37,6 @@ app.use('/api/user', userRouter)
 
 // app.listen(port, () => console.log(`server started on PORT:${port}`));
 
+// Export for Vercel serverless function
 
+export default app ;
