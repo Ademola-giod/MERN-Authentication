@@ -12,7 +12,7 @@ import userRouter from "./routes/userRouters.js";
 
 const app = express();
 const port = process.env.PORT || 4000;
-// console.log("🔍 MONGODB_URI:", process.env.MONGODB_URI);
+console.log("🔍 MONGODB_URI:", process.env.MONGODB_URI);
 // connect mongoDB
 connectDB()
 
